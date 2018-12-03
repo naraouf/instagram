@@ -8,7 +8,7 @@
     "start": "nodemon index.js",
     "mysql-start":"docker-compose up",
     "mysql-stop":"docker-compose down",
-    "mysql-connect":"sudo docker-compose exec db mysql -u root -p",
+    "mysql-connect":"sudo docker-compose exec db mysql -u admin -p",
     "bash":"sudo docker-compose exec db bash"
   },
   "repository": {
